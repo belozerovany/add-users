@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="hometest.css">
+</head>
+<body class="site">
+	<header>
+		<h1>header</h1>
+	</header>
+	<section class="site-content">
+		<div class="site-content__main">
+			<form class="site-content__form">
+				<h2>ADD NEW</h2>
+				<div class="site-content__form-div">
+					<input id="name" type="text" name ="check" placeholder="Name">
+				</div>
+				<div class="site-content__form-div">
+					<input id="address" type="email" name ="check" placeholder="Email">
+				</div >
+				<input type="button" id="btn" value="ADD">
+				<span class="error" style="color:red; display: none;">Заполните все поля</span>
+			</form>
+			<select  id="users" class="site-content__main--select">
+				<option value="admin">admin</option>
+				<option value="user">user</option>
+				<option value="guest">guest</option>
+			</select>
+		</div>
+		
+		<div class="site-content__info">
+			<h2>USERS</h2>
+			<ul id="user-list"></ul>
+		</div>
+
+	</section>
+	<footer>
+		<p>footer</p>
+
+	</footer>
+<script src="hometest.js"></script>
+</body>
+</html>
