@@ -16,7 +16,7 @@ function heandler(){
 		console.log('itempp',item.personeName);
 
 
-		 Person(item.personeName, item.personeAddress,item.personeRoles);
+		 Person.createList(item.personeName, item.personeAddress,item.personeRoles);
 	})
 //the and test with localstorege
 	function Person(name, address, role) {
