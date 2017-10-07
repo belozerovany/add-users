@@ -11,13 +11,14 @@ function heandler(){
 	console.log('str', str);
 	console.log('todo', todo);
 
-	/*todo.forEach(function(item, i){
+    // test with localstorege
+	todo.forEach(function(item, i){
 		console.log('itempp',item.personeName);
 
 
 		 Person(item.personeName, item.personeAddress,item.personeRoles);
 	})
-*/
+//the and test with localstorege
 	function Person(name, address, role) {
 		this.name 	 = name;
 		this.address = address;
